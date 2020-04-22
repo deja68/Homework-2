@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imageSlider.css">
+    <script defer src = "imageSlider.js"></script>
+    <title>Image Slider</title>
+</head>
+<body>
+    <h1 id = "heading">Image slider</h1>
+    <div class="wrap">
+        <div id="arrow-left" class="arrow">
+        </div>
+
+        <div id="slider">
+            <div class="slide">
+                <div class="slide-content">
+                    <img class = "image" src="images/water.jpg" alt="water picture">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                   <img class = "image" src="images/forest.jpg" alt="forest picture">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <img class = "image" src="images/seaport.jpg" alt="seaport picture">
+                </div>
+            </div>   
+        </div>
+
+        <div id="arrow-right" class="arrow">
+        </div>
+    </div>
+
+       <!-- The Modal -->
+   <div id="myModal" class="modalWindow">
+
+    <!-- Modal content -->
+    <div class="modalContent">
+        <div class="modal-body">
+            <span class="closeX">&times;</span>
+            <div id="arrowLeftModal" class="arrowModal">
+            </div>
+    
+            <div id="sliderWrap">
+                <div class="slideModal">
+                    <img class = "modalImage" src="images/water.jpg" alt="water picture">
+                </div>
+                <div class="slideModal">
+                    <img class = "modalImage" src="images/forest.jpg" alt="forest picture">
+                </div>
+                <div class="slideModal">
+                    <img class = "modalImage" src="images/seaport.jpg" alt="seaport picture">
+                </div>   
+            </div>
+    
+            <div id="arrowRightModal" class="arrowModal">
+            </div>
+        </div>
+        
+    </div>
+
+    </div>
+</body>
+</html>

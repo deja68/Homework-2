@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link id="dynamic-favicon" rel="icon" type="image/ico" 
+        href="images/red_tomato.ico">
+    <link rel="stylesheet" href="pomodoro.css">
+    <script defer src = "pomodoro.js"></script>
+</head>
+<body>
+    <div class = "tab">
+        <button class = "tabLinks">Pomodoro</button>
+        <button class = "tabLinks">Short Break</button>
+        <button class = "tabLinks">Long Break</button>
+    </div>
+
+    <div id="pomodoro" class="tabContent">
+        <div class = "time">
+            <span id="pomodoroTime">25:00</span>
+        </div>
+        <div class = "flexBtns">
+            <button id = "startBtn">Start</button>
+            <button id = "stopBtn">Stop</button>
+            <button id = "resetBtn">Reset</button>
+        </div>
+    </div>
+
+    <audio id="myAudio">
+        <source src="ups.mp3" type="audio/mpeg">
+    </audio>
+
+   
+    
+</body>
+</html>
